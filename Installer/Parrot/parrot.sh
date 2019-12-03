@@ -78,4 +78,7 @@ echo "making $bin executable"
 chmod +x $bin
 echo "removing image for some space"
 rm $tarball
+cat parrot-fs/etc/apt/sources.list | \
+sed -e 's/stable/lts/g' >> parrot-fs/etc/apt/sources.list
+touch parrot-fs/root/.parrot
 echo "You can now launch Parrot Security OS with the ./${bin} script"
