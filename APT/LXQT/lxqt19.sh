@@ -3,7 +3,7 @@
 #Get the necessary components
 sudo apt-mark hold udisks2
 sudo apt-get update -y
-sudo apt-get install lxqt-core lxqt-config qterminal tightvncserver -y
+sudo apt-get install lxqt-core lxqt-config qterminal tigervnc-standalone-server dbus-x11 -y
 sudo apt-get install xfe -y
 sudo apt-get clean
 
@@ -20,6 +20,11 @@ echo $$ > /tmp/xsession.pid
 dbus-launch --exit-with-session startlxqt &" > ~/.vnc/xstartup
 
 echo " "
+
+echo "Running browser patch"
+wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Uninstall/ubchromiumfix.sh && chmod +x ubchromiumfix.sh
+./ubchromiumfix.sh && rm -rf ubchromiumfix.sh
+
 echo "You can now start vncserver by running vncserver-start"
 echo " "
 echo "It will ask you to enter a password when first time starting it."

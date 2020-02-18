@@ -1,10 +1,9 @@
 <p align="center">
-<img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/banner.png" height="715" width="805" />
+<img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assets/banner.png" height="715" width="805" />
 </p>
 
 &nbsp;
 
-[![Build Status](https://app.bitrise.io/app/49559d7f97084931/status.svg?token=tfy28XkXGlo-1snOW8sH-w)](https://app.bitrise.io/app/49559d7f97084931)
 
 &nbsp;
 
@@ -47,16 +46,16 @@ This app lets you install various popular Linux distributions on your Android de
 AndroNix. It is the officially signed APK with the original keys so you can update it via Google Play Store.
 
 <p align="center">
-  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/ubuntu.png" height="450" width="253.0" />
-  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/manjaro.png" height="450" width="253.0" /> 
-  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/kali.png" height="450" width="253.0"/>
+  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assets/ubuntu.png" height="450" width="253.0" />
+  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assets/manjaro.png" height="450" width="253.0" /> 
+  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assets/kali.png" height="450" width="253.0"/>
 </p>
 
 
 <p align="center">
- <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/audio.png" height="450" width="253.0" />
-  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/softwares.png" height="450" width="253.0" /> 
-  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assests/installations.png" height="450" width="253.0"/>
+ <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assets/audio.png" height="450" width="253.0" />
+  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assets/softwares.png" height="450" width="253.0" /> 
+  <img src="https://github.com/Techriz/AndronixOrigin/blob/master/Assets/installations.png" height="450" width="253.0"/>
 </p>
 
 ## Some important things - 
@@ -88,7 +87,7 @@ Features:
   
 - Termux is required.  
   
-- Android version should be atleast 5.0  
+- Android version should be atleast 5.1  
   
 - Device architecture supported: ARMv7, ARM64, x64.
 
